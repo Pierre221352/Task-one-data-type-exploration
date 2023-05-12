@@ -26,4 +26,19 @@ let totalTax = timmyTax + susanTax;
 
 console.log("The tax man will claim " + totalTax + " from Timmy and Susan")
 
+var johnScore = 0;
+var timScore = 0;
+var alfieScore = 0;
+var gwenScore = 0;
 
+var Average = johnScore + timScore + alfieScore + gwenScore / 4;
+
+johnScore + 7;
+timScore + 7;
+alfieScore + 7;
+gwenScore + 7;
+
+var updatedAverage = johnScore + timScore + alfieScore + gwenScore / 4;
+
+console.log("The student average is " + Average + "/100");
+console.log("The students updated average is " + updatedAverage + "/100");
