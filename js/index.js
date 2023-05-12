@@ -13,4 +13,17 @@ let answer = 0;
 
 console.log("Answer = " + numOne + numTwo / numThree * numFour)}
 
+let timmyAmount = 10;
+let susanAmount = 25;
+
+let timmyPercentage = 15;
+let susanPercentage = 26;
+
+let timmyTax = timmyAmount * timmyPercentage / 100;
+let susanTax = susanAmount * susanPercentage / 100;
+
+let totalTax = timmyTax + susanTax;
+
+console.log("The tax man will claim " + totalTax + " from Timmy and Susan")
+
 
